@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Fatima ID Ali</title>
+  <style>
+    *{
+      margin: 0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    body{
+      background:#ffffff;
+      padding:30px;
+    }
+
+    .cv{
+      max-width:1000px;
+      margin:auto;
+      background:#b8d3e9;
+      display:grid;
+      grid-template-columns: 30% 70%;
+      min-height:100vh;
+    }
+
+    /* LEFT COLUMN */
+    .left{
+      background:#476f9d;
+      color:#ccc;
+    }
+
+    .photo{
+      width:100%;
+      height:380px;
+      background:#cec5c5;
+    }
+
+    .photo img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    .left-section{
+      padding:25px;
+    }
+
+    .left h2{
+      letter-spacing:4px;
+      font-size:18px;
+      margin-bottom:15px;
+      color:#011001;
+    }
+
+    .left p{
+      font-size:14px;
+      line-height:1.6;
+      color:#102029;
+    }
+
+    /* Skills */
+    .skill{
+      margin-bottom:10px;
+    }
+
+    .skill span{
+      font-size:13px;
+      display:block;
+      margin-bottom:10px;
+      color:#2b3b54;
+    }
+
+    .bar{
+      background:#434444;
+      height:6px;
+    }
+
+    .bar div{
+      height:100%;
+      background:#707072;
+    }
+
+    /* RIGHT COLUMN */
+    .right{
+      padding:40px;
+      color:#4a4b4f;
+    }
+
+    .name{
+      font-size:42px;
+      letter-spacing:3px;
+      color:#060813;
+    }
+
+  
+    .contact{
+      margin:20px 0 40px;
+      font-size:14px;
+      color:#777;
+    }
+
+    .right h3{
+      letter-spacing:4px;
+      font-size:20px;
+      margin:35px 0 15px;
+      color:#888;
+    }
+
+    .job-title{
+      font-size:18px;
+      color:#555;
+      margin-bottom:8px;
+    }
+
+    .date{
+      font-size:14px;
+      color:#999;
+      margin-bottom:10px;
+    }
+
+    .right p{
+      font-size:14px;
+      line-height:1.7;
+      color:#666;
+      margin-bottom:25px;
+    }
+
+    @media(max-width:800px){
+      .cv{
+        grid-template-columns:1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv">
+
+    <!-- LEFT -->
+    <div class="left">
+      <div class="photo">
+        <img src="moon.jpg" alt="Profile Photo">
+      </div>
+
+      <div class="left-section">
+        <h2>PROFIL</h2>
+        <p>
+        Actuellement étudiante en deuxième année de DUT Sécurité Informatique et Réseaux pour l'année 2025/2026,
+        je souhaite effectuer un stage technique de fin d'études (PFE) afin d'appliquer mes connaissances, 
+        enrichir mes compétences pratiques et contribuer activement à un projet au sein d'une équipe professionnelle.
+        Sérieuse, motivée et autonome, je m'adapte facilement et apprécie le travail collaboratif
+        </p>
+      </div>
+
+      <div class="left-section">
+        <h2>SKILLS</h2>
+
+        <div class="skill">
+          <span>HTML</span>
+          <div class="bar"><div style="width:90%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>CSS</span>
+          <div class="bar"><div style="width:80%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>c</span>
+          <div class="bar"><div style="width:10%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>python</span>
+          <div class="bar"><div style="width:60%"></div></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="right">
+      <div class="name">Fatima <span>ID Ali</span></div>
+
+      <div class="contact">
+        Beni Mellal<br>
+        Phone: +212 645 648 128<br>
+        Email: fatimaidali357@gmail.com
+      </div>
+
+      <h3>EXPERIENCE</h3>
+
+      <div class="job-title">EVENTS LEAD IN CYPHX CLUBS</div>
+      <div class="date">2025 - En cours</div>
+      <p>
+        <ul>
+        <li>
+        Organisation et coordination d'ateliers et événements techniques.
+        </li>
+        <li>
+            Collaboration avec mentors et partenaires pour créer des opportunités professionnelles.
+        </li>
+        <li>
+            Développement de compétences en leadership, communication et travail en équipe
+        </li>
+        </ul>
+      </p>
+      <div class="job-title"> stage d'initiation | 1 MOIS </div>
+      <div class="date">06/10/2025 - 07/10/2025</div>
+      <p>
+        Stage d'initiation dans la Cours d'appel Beni Mellal -Cellule informatique-.
+      </p>
+      <h3>EDUCATION</h3>
+
+      <div class="job-title">Lycée Mohamed V - Beni Mellal </div>
+      <div class="date">2023 - 2024</div>
+      <p>
+        Bac Science Mathématique B
+      </p>
+      <div class="job-title">Ecole supérieur de technologie Beni Mellal </div>
+      <div class="date">2024 - En cours</div>
+      <p>
+        DUT: Sécurité informatique et Réseaux 
+      </p>
+       
+
+    </div>
+
+  </div>
+
+</body>
+</html>
